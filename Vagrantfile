@@ -3,7 +3,6 @@
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
-project_name = "Relay prototype"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
@@ -41,8 +40,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  #config.vm.synced_folder "../", "/home/vagrant/project", type: "nfs"
-  config.vm.synced_folder "../", "/home/vagrant/project", type: "nfs"
+  # config.vm.synced_folder "../", "/home/vagrant/project", type: "nfs"
+  # config.vm.synced_folder "../", "/home/vagrant/project", type: "nfs"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
