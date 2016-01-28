@@ -4,7 +4,7 @@ cd ~/bin
 echo 'Paste here latest nodejs version url: '
 read url
 wget $url
-tar -xf node*.gz
+tar -xf node*tar*
 nodeDir=$(ls -p | grep node | grep /)
 cd $nodeDir/bin
 sudo ./npm install -g n
